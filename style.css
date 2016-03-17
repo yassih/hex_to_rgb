@@ -23,6 +23,9 @@ input{
     padding: 5px 0;
     border-radius: 0;
 }
+input:focus{
+	outline: none;
+}
 #hex{
 	border-bottom: 15px;
 	border-bottom: 1px dotted rgba(0,0,0,.4);
