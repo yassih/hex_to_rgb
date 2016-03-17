@@ -13,7 +13,7 @@ function multiplyBy() {
 			}
 		}
 		if( number === true){
-			document.getElementById("rgb").value = rgbValue;
+			document.getElementById("rgb").value = "rgb( " + rgbValue + " )";
 			document.body.style.backgroundColor = '#' + hexValue;
 			// var myDiv = document.getElementsByClassName("container")[0];
 			// myDiv.style.backgroundColor = '#' + hexValue;
