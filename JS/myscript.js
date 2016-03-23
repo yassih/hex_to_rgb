@@ -1,5 +1,6 @@
 function multiplyBy() { 
 	var rgbValue = []; 
+	var test = 0;
 	var number = true;
 	var hexValue = document.getElementById("hex").value; 
 	if ( hexValue.length === 6 || hexValue.length === 3){
